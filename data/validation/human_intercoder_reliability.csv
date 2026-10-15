@@ -1,0 +1,13 @@
+﻿metric,estimate
+formal_rows,500.0
+both_coders_completed_usable_field,500.0
+both_coders_marked_usable_with_scores,408.0
+usable_agreement_rate,0.89
+usable_cohen_kappa,0.5120652945351315
+score_mae,0.166421568627451
+score_median_absolute_error,0.15000000000000002
+score_rmse,0.22228757209048453
+score_mean_signed_difference_A_minus_B,0.011519607843137249
+score_spearman,0.7780844868399438
+score_icc_absolute_single,0.7114096509110247
+label_quadratic_weighted_kappa,0.7355536578423001

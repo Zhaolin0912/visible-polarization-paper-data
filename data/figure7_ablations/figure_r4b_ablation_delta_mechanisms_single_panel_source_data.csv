@@ -1,0 +1,21 @@
+variant,variant_label,metric,metric_label,color,mean_difference,ci95_low,ci95_high
+random_selection,RS,B_selection_P,$\Delta B_{\mathrm{selection}}^{P}$,#4E79A7,-0.036744271101404,-0.0371529992485775,-0.0363355429542306
+random_selection,RS,B_expression_P,$\Delta B_{\mathrm{expression}}^{P}$,#E15759,-0.0002102117404104,-0.000293576191113,-0.0001268472897079
+random_selection,RS,B_activity_P,$\Delta B_{\mathrm{activity}}^{P}$,#59A14F,-0.0040289757540986,-0.0043268582861506,-0.0037310932220467
+random_selection,RS,B_algorithm_P,$\Delta B_{\mathrm{algorithm}}^{P}$,#B07AA1,-0.0014317753410469,-0.0018265101028968,-0.001037040579197
+honest_expression,HE,B_selection_P,$\Delta B_{\mathrm{selection}}^{P}$,#4E79A7,0.001891920866564,0.0018330735244444,0.0019507682086837
+honest_expression,HE,B_expression_P,$\Delta B_{\mathrm{expression}}^{P}$,#E15759,0.0241624324734541,0.0239779642025485,0.0243469007443598
+honest_expression,HE,B_activity_P,$\Delta B_{\mathrm{activity}}^{P}$,#59A14F,0.0038479742546244,0.0036671720673415,0.0040287764419073
+honest_expression,HE,B_algorithm_P,$\Delta B_{\mathrm{algorithm}}^{P}$,#B07AA1,0.0032099231386936,0.0030516421142698,0.0033682041631174
+equal_rate,ER,B_selection_P,$\Delta B_{\mathrm{selection}}^{P}$,#4E79A7,-0.0019456454763824,-0.0020494325837645,-0.0018418583690004
+equal_rate,ER,B_expression_P,$\Delta B_{\mathrm{expression}}^{P}$,#E15759,-0.0016184800824859,-0.0016832750401465,-0.0015536851248253
+equal_rate,ER,B_activity_P,$\Delta B_{\mathrm{activity}}^{P}$,#59A14F,-0.0226500274452212,-0.0233168972635224,-0.02198315762692
+equal_rate,ER,B_algorithm_P,$\Delta B_{\mathrm{algorithm}}^{P}$,#B07AA1,-0.0052235996320423,-0.0058114868254984,-0.0046357124385862
+equal_posts,EP,B_selection_P,$\Delta B_{\mathrm{selection}}^{P}$,#4E79A7,-0.0039630161999102,-0.0040810535668448,-0.0038449788329755
+equal_posts,EP,B_expression_P,$\Delta B_{\mathrm{expression}}^{P}$,#E15759,-0.0028635784932972,-0.0029410596324298,-0.0027860973541645
+equal_posts,EP,B_activity_P,$\Delta B_{\mathrm{activity}}^{P}$,#59A14F,-0.0226323820825377,-0.0232987744186833,-0.0219659897463921
+equal_posts,EP,B_algorithm_P,$\Delta B_{\mathrm{algorithm}}^{P}$,#B07AA1,-0.0203262634912229,-0.0209354559926258,-0.0197170709898201
+random_visibility,RV,B_selection_P,$\Delta B_{\mathrm{selection}}^{P}$,#4E79A7,-0.0035297904517628,-0.0036077527078621,-0.0034518281956636
+random_visibility,RV,B_expression_P,$\Delta B_{\mathrm{expression}}^{P}$,#E15759,-0.00209016908025,-0.0021370106929152,-0.0020433274675848
+random_visibility,RV,B_activity_P,$\Delta B_{\mathrm{activity}}^{P}$,#59A14F,-0.002572014948115,-0.0027136757433023,-0.0024303541529277
+random_visibility,RV,B_algorithm_P,$\Delta B_{\mathrm{algorithm}}^{P}$,#B07AA1,0.0005866925008942,0.000346799624774,0.0008265853770143

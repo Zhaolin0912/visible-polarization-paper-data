@@ -1,0 +1,74 @@
+experiment:
+  name: "polarizing_algorithm_baseline"
+  seed: 12345
+  output_dir: "outputs/baseline"
+
+simulation:
+  N: 5000
+  T: 500
+  R: 30
+  W: 50
+  epsilon_type: "relative_to_PX"
+  epsilon_scale: 0.05
+
+network:
+  type: "BA"
+  m_BA: 5
+  directed: false
+
+private_opinion:
+  distribution: "truncnorm"
+  mean: 0.5
+  sigma_x: 0.18
+  lower: 0.0
+  upper: 1.0
+
+cost:
+  distribution: "uniform"
+  low: 0.0
+  high: 1.0
+
+profile:
+  lambda_b: 0.7
+  sigma_b: 0.08
+  lambda_pi: 0.8
+  sigma_pi: 0.08
+  static: true
+
+activity:
+  sigma_A: 0.7
+  rho_kq: 0.5
+  lambda_0: 3.0
+  omega: 2.0
+
+participation:
+  theta_0: -2.0
+  theta_M: 4.0
+  theta_H: 1.0
+  theta_C: 2.0
+  eta: 1.0
+  congruence_type: "item"
+
+expression:
+  target: "mean"
+  alpha: 0.15
+  sigma_y: 0.03
+  tau_S: 0.1
+  delta_S: 0.0
+  n_dom_min: 3
+
+visibility:
+  K: 10
+  beta_E: 5.0
+  beta_P: 1.0
+  actual_visibility: "algorithm"
+
+metrics:
+  delta_m: 0.15
+  delta_e: 0.35
+  delta_maj: 0.05
+  compute_fvb: false
+  fvb_pairs_L: 10000
+  transition_bins_Q: 5
+  delta_B: 0.15
+  bpw_p: 1.0

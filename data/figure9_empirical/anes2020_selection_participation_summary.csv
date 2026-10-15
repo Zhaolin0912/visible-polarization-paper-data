@@ -1,0 +1,2 @@
+﻿measure,estimate,bootstrap_mean,bootstrap_se,ci95_low,ci95_high,bootstrap_replications_valid
+weighted_online_political_participation_rate,0.3735720591121862,0.3736990056926997,0.008011732344874345,0.3581358097065903,0.38982215448796026,5000
